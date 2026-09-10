@@ -1,0 +1,21 @@
+// json
+{
+  "models": [
+    {
+      "id": "unique-id",
+      "name": "Display Name",
+      "tier": "LOW|MEDIUM|HIGH",
+      "gguf_variant": "Q4_K_M",
+      "source_url": "https://huggingface.co/...",
+      "file_size_bytes": 491000000,
+      "estimated_ram_bytes": 536870912,
+      "recommended_ram_bytes": 700000000,
+      "architecture": "ModelName",
+      "license": "apache-2.0",
+      "source_note": "Provider attribution",
+      "min_cpu_tier": 0,
+      "min_gpu_tier": 0,
+      "benefits_from_npu": false
+    }
+  ]
+}
